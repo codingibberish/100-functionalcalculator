@@ -56,7 +56,7 @@ function operate(operator, num1, num2) {
 
 function performOperation() {
     if (operation.length == 1 && secondNum != "") {
-        let result = operate(operation, parseInt(secondNum), parseInt(displayText));
+        let result = operate(operation, parseFloat(secondNum), parseFloat(displayText));
         result = (Math.round(result * 1000) / 1000);
         // result = toString(result);
         console.log(result);
@@ -94,7 +94,10 @@ function addNumToDisplayText(number) {
         } else if (number.id == "zero") {
             displayText += "0";
         } else if (number.id == "decimal") {
-            displayText += ".";
+            if (displayText.includes(".") || displayText == "") {
+            } else {
+                displayText += ".";
+            }
         } 
     }
 }
