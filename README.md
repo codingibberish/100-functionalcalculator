@@ -1,6 +1,6 @@
 # my 100% functional calculator
 
-an interactive calculator built with vanilla javascript, html and css. ([view it here](https://codingibberish.github.io/myveryfunctionalcalculator/))
+an interactive calculator built with vanilla javascript, html and css. ([view it here](https://oriodev.github.io/myveryfunctionalcalculator/))
 
 ![image](https://user-images.githubusercontent.com/93719767/199142566-7d6767e2-4396-49ed-a1ca-c3654779968a.png)
 
